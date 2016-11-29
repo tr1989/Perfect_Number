@@ -2,8 +2,15 @@ package com.cleancode.perfectnumber;
 
 public class PerfectNumber{
 
+    public boolean isNumberPerfect(int number){
+        if(isNumberPositive(number) && !isNumberZero(number) && getSumOfFactors(number) == number){
+            return true;
+        }
+        return false;
+    }
+
     public  boolean isNumberPositive(int number){
-        if(number > 0){
+        if(number >= 0){
             return true;
         }
         return false;
