@@ -35,4 +35,13 @@ public class PerfectNumberTest {
         int sum = perfectNumber.getSumOfFactors(number);
         Assert.assertNotNull(sum);
     }
+
+    @Test
+    public void testIsNumberPerfect(){
+        PerfectNumber perfectNumber = new PerfectNumber();
+        int number = 6;
+        boolean expected = perfectNumber.isNumberPerfect(number);
+        Assert.assertTrue(expected);
+    }
+
 }
