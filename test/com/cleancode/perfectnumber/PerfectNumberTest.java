@@ -17,6 +17,6 @@ public class PerfectNumberTest {
         PerfectNumber perfectNumber = new PerfectNumber();
         int number = -5;
         boolean expected = perfectNumber.isNumberPositive(number);
-        Assert.assertTrue(expected);
+        Assert.assertFalse(expected);
     }
 }

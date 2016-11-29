@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Perfect_Number.iml" filepath="$PROJECT_DIR$/.idea/Perfect_Number.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Perfect_Number.iml" filepath="$PROJECT_DIR$/Perfect_Number.iml" />
     </modules>
   </component>
 </project>
