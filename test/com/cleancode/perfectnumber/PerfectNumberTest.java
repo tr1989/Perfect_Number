@@ -27,4 +27,12 @@ public class PerfectNumberTest {
         boolean expected = perfectNumber.isNumberZero(number);
         Assert.assertTrue(expected);
     }
+
+    @Test
+    public void testGetSumOfFactors(){
+        PerfectNumber perfectNumber = new PerfectNumber();
+        int number = 6;
+        int sum = perfectNumber.getSumOfFactors(number);
+        Assert.assertNotNull(sum);
+    }
 }
