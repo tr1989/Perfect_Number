@@ -9,4 +9,11 @@ public class PerfectNumber{
         return false;
     }
 
+    public  boolean isNumberZero(int number){
+        if(number == 0){
+            return true;
+        }
+        return false;
+    }
+
 }

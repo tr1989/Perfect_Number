@@ -25,6 +25,6 @@ public class PerfectNumberTest {
         PerfectNumber perfectNumber = new PerfectNumber();
         int number = 0;
         boolean expected = perfectNumber.isNumberZero(number);
-        Assert.assertFalse(expected);
+        Assert.assertTrue(expected);
     }
 }
