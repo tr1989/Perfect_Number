@@ -44,4 +44,19 @@ public class PerfectNumberTest {
         Assert.assertTrue(expected);
     }
 
+    @Test
+    public void testIsNumberPerfectWithValue10(){
+        PerfectNumber perfectNumber = new PerfectNumber();
+        int number = 10;
+        boolean expected = perfectNumber.isNumberPerfect(number);
+        Assert.assertFalse(expected);
+    }
+
+    @Test
+    public void testIsNumberPerfectWithValueZero(){
+        PerfectNumber perfectNumber = new PerfectNumber();
+        int number = 0;
+        boolean expected = perfectNumber.isNumberPerfect(number);
+        Assert.assertFalse(expected);
+    }
 }
