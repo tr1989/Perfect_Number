@@ -19,4 +19,12 @@ public class PerfectNumberTest {
         boolean expected = perfectNumber.isNumberPositive(number);
         Assert.assertFalse(expected);
     }
+
+    @Test
+    public void testIsNumberZero(){
+        PerfectNumber perfectNumber = new PerfectNumber();
+        int number = 0;
+        boolean expected = perfectNumber.isNumberZero(number);
+        Assert.assertFalse(expected);
+    }
 }
